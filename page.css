@@ -1,0 +1,88 @@
+#container{
+    display: grid;
+    width:75%;
+    padding: 0.5%;
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+    background-color: #00000003;
+
+}
+#bigContainer{
+    margin-top: 10%;
+    /* display: flex; */
+    width: 650px;
+    height: 600px;
+    position: relative;
+
+}
+button{display: grid;
+gap : 2px;
+padding: 1%;
+border-style: none;
+}
+
+.c0{
+    border-bottom: none;
+}
+.period{
+    float: right;
+}
+    #container3 {
+        display: flex;
+        margin-right: 0.5%;
+        flex-direction: column;
+        width: 25%;
+        margin-left: -1%;
+        padding: 0.5%;
+    }
+
+#containers{
+    padding: 0.5%;
+    background-color:#00000091;
+    display: flex;
+    flex-direction: row;
+}
+#container2{
+    padding:0.6%;
+    font-weight: 600;
+    background-color:#00000091;
+    font-size: 120%;
+    height: fit-content;
+}
+#biggerContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+button:hover{
+    transform: scale(1.01);
+    border-style: none;
+    font-size: 110%;
+}
+
+button:disabled{
+    color: #000;
+}
+
+*{  text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(133, 161, 158);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* footer{
+background-color: rgba(56, 148, 105, 0.301);
+} */
+
+#container, #container3{
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    /* height: 100px; */
+}
+#container2{
+padding: 1.25% 1%;
+}
+
+button{
+    height: 25px;
+}
